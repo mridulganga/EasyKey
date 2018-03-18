@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "242298627626",
+    "firebase_url": "https://easykey-160212.firebaseio.com",
+    "project_id": "easykey-160212",
+    "storage_bucket": "easykey-160212.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242298627626:android:5216d35af743309e",
+        "android_client_info": {
+          "package_name": "app.nisb.easykey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242298627626-kal9o03k6kigr5svqlq593gjrdkhfpvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxogEXDf3exmeePPiFM25cimUY4FUlOMk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
