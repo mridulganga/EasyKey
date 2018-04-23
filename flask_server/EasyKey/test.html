@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <input type="email" name="email" id="email" value="">
+    <input type="submit" name="submit" id="submit" value="Login">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+      $('#submit').click(function(){
+        var email = $('#email').val();
+        var source = 'test_website';
+        alert(email);
+
+        $.get( "http://0.0.0.0:8080/login/"+source+"/"+email, function( data ) {
+            setInterval(function(){
+              $.get( "http://0.0.0.0:8080/login/"+source+"/"+email, function( data ) {
+                if (data=='yes'){
+                  alert("Login Success");
+                }
+                else if (data=='no'){
+                  alert("Login Failure");
+                }
+              });
+            },2000);
+        });
+      });
+    </script>
+
+  </body>
+</html>
